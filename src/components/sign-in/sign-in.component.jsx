@@ -29,7 +29,7 @@ class SignIn extends Component {
                 <h2 className='title'>I already have account</h2>
                 <span>Sign in with your email and password</span>
 
-                <form onSubmit={this.handleSubmit} autoComplete={'off'}>
+                <form title='sign-in-form' onSubmit={this.handleSubmit} autoComplete={'off'}>
                     <FormInput
                         label="Email"
                         name="email"

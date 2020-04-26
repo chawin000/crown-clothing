@@ -1,6 +1,4 @@
-import SHOP_DATA from "../../pages/shop/shop.data";
-
-const DIRECTORY_DATA = [
+const DIRECTORY_DATA =[
     {
         title: "hats",
         imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
@@ -34,6 +32,5 @@ const DIRECTORY_DATA = [
         linkUrl: "shop/mens",
     },
 ]
-
 
 export default DIRECTORY_DATA;

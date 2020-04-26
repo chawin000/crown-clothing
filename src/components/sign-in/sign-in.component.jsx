@@ -21,6 +21,7 @@ class SignIn extends Component {
       this.setState({ email: "", password: "" });
     } catch (e) {
       console.log(e);
+      alert(e.code+':'+e.message);
     }
   };
 
